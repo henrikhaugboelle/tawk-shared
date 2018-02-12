@@ -1,0 +1,25 @@
+{
+  "name": "@henrikhaugboelle/tawk-shared",
+  "version": "1.0.0",
+  "private": true,
+  "peerDependencies": {
+    "apollo-cache-inmemory": "^1.1.3",
+    "apollo-client": "^2.1.0",
+    "apollo-link": "^1.0.5",
+    "apollo-link-batch-http": "^1.0.2",
+    "apollo-link-error": "^1.0.2",
+    "apollo-link-ws": "^1.0.2",
+    "apollo-utilities": "^1.0.3",
+    "lodash.debounce": "^4.0.8",
+    "lodash.get": "^4.4.2",
+    "randomstring": "^1.1.5",
+    "slugify": "^1.2.9",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "wml": "^0.0.83"
+  },
+  "scripts": {
+    "start": "wml add . ../tawk-web/src/shared && wml add . ../tawk-app/src/shared && wml start"
+  }
+}
